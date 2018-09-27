@@ -1,0 +1,196 @@
+/* CSS Document */
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+*{
+	user-select: none;
+}
+
+#nav{
+	width: 100vw;
+	height: 3rem;
+	background-color: rgba(255, 255, 255, 0.897);
+	position: sticky;
+	display: block;
+	z-index: 2;
+	top: 0;
+	float: 0;
+}
+#ulnav{
+	display: flex;
+	margin: auto;
+	width: 80%;
+}
+#ulnav li {
+	display: flex;
+	display: block;
+	margin: auto;
+	width: 40%;
+	height:3rem;
+	
+	line-height: 3rem;
+	text-align: center;
+	list-style-image: none;
+}
+#ulnav li:hover{
+	border-bottom: solid 2px red;
+	transition: .3s; 
+	color: red;
+}
+#ulnav li:hover a{color: red;}
+.rslink{
+	text-decoration: none;
+	font-size: 1.3rem;
+	color:black;
+}
+
+#main{
+	width: 100vw;
+	height: auto;
+	
+	margin: auto;
+	font-family: 'Poppins', sans-serif;
+}
+#sect{
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+	padding: 1%;
+	
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	background-image:url(../imagenes/fondo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}#sect p{
+	
+	font-size: 1.1rem;
+	text-shadow: black 5px 5px 5px;
+}
+#iconres{
+	width: 9rem;
+	height: 9rem;
+	align-content: center;
+	margin: auto;
+	background-image: url(../imagenes/logo.png);
+	background-size: contain;
+	filter: contrast(.1);
+}
+#tilere{font-size: 2rem;}
+#ht{font-family: Consolas;}
+#inR{width: 50%;text-align: center;margin: auto;margin-top: 1rem;}
+#rbr{border: solid rgba(0,255,13,1.00) 3px;
+	border-radius: 8px;
+	line-height: 3.8rem;
+	width: 15rem;
+	height: 4rem;
+	color: rgba(0,255,13,1.00);
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	margin: auto;
+	margin-top: 4rem;
+}
+#rbr:hover{background-color:rgba(0,255,13,1.00);color: black; transition: .5s;}
+
+#ubic{
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	margin: auto;
+	
+}
+#delivery{
+	background-image: url(../imagenes/image.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+#infoub{width: 50%;margin: auto;}
+#maps{
+	width: 50%;
+	height: auto;
+	margin: auto;
+	position: static;
+}
+iframe{width: 90%;margin: auto;height: 25rem;}
+#fd{
+	
+	width: 25rem;
+	height: auto;
+	background-color: rgba(0,0,0,0.6);
+	margin: auto;
+	display: block;
+	padding: 2%;
+	border-radius: 10px;
+}
+.delR{
+	width: 80%;
+	padding: 2%;
+	display: block;
+	margin: 1rem auto auto ;
+	border-radius: 10px;
+	border: none;
+	
+}
+
+.ld{
+	display: block;
+	margin: 1rem  auto auto auto ;
+	text-align: center;
+	font-size: 1.2rem;
+	color: white;
+}
+#rd{
+	width: 45%;
+	height: 2rem;
+	display: block;
+	margin: 1rem  auto auto;
+}
+#foo{
+	box-sizing: border-box;
+	width: 100vw;
+	height:auto;
+	top:0;
+	left:0;
+	background-color: black;
+	color: white;
+	margin: auto;
+	display: flex;
+	padding: 2%;
+}
+#if{
+	
+	width: 25%;
+	height: 15rem;
+	display: block;
+	margin: auto;
+	background-image: url(../imagenes/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: contrast(.1);
+	
+}
+#t{
+	width: 65%;
+	height: auto;
+	display: flex;
+	
+	background-color: chocolate;
+	
+}
+.tb{
+	width: 50%;
+	border: solid 1px red;
+	height: auto;
+	margin:  1% auto ;
+	display: block;
+	padding-left: 1%;
+
+}
